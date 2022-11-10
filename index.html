@@ -400,7 +400,7 @@
               <p><strong>Digital / E-commerce Consultant | <font color="##149ddd">RBM Consulting</font></strong><br>Provide B2C E-commerce site development and Digital solutions, strategy and execution. <b>Highlights:</b></p>
               <ul>
                 <li>Evaluated <a href="https://www.EuroHomeDecor.com" target="_blank"><b>EuroHome Decor</b></a> website's product categorizations, meta-data and internal and organic search results. Provided SEO solutions and updated the site's search functionality to enhance usability and search results.</li>
-				<li>Provided requirements for the <b>Huntsville/Lake of Bays Chamber of Commerce</b> to fix search and usability issues caused by the multiple references of similar content across their 2 complimentary websites:&nbsp;<a href="https://www.huntsvillelakeofbays.on.ca/" target="_blank"><b>Chamber of Commerce Business Directory</b></a> | <a href="https://www.huntsvilleadventures.com/" target="_blank"><b>Adventures Tourism</b></a></li> 
+				<li>Provided requirements for the <b>Huntsville/Lake of Bays Chamber of Commerce</b> to fix search and usability issues caused by the multiple references of similar content across their 2 complimentary WordPress websites:&nbsp;<a href="https://www.huntsvillelakeofbays.on.ca/" target="_blank"><b>Chamber of Commerce Business Directory</b></a> | <a href="https://www.huntsvilleadventures.com/" target="_blank"><b>Adventures Tourism</b></a></li> 
 				<li>Created an end-to-end guide for <b>S. Sutton & Associates Inc.</b> to create free and 'for fee' webinars viewed through a webinar platform integrated with their <a href="https://www.ssutton-and-associates.com" target="_blank"><b>website</b></a>.</li>
               </ul>
             </div>
@@ -709,244 +709,49 @@
 
         <div class="section-title">
           <h2>Contact</h2>
-          <p>If you would like more information on how I can help your organization, please feel free to contact me.<br>I'm available for full-time opportunities, contracts, and freelance projects.</p>
+          <p style="color:#400000;">If you would like more information on how I can help your organization, please feel free to contact me.<br>I'm available for full-time opportunities, contracts, and freelance projects.</p>
         </div>
-
-
-        <div class="row" data-aos="fade-in">
-
-<!--
-          <div class="col-lg-3 d-flex align-items-stretch">
-            <div class="info">
-              <div class="address">
-                <i class="bi bi-geo-alt"></i>
-                <h4>Location:</h4>
-                <p>Toronto, ON, Canada</p>
-              </div>
-
-              <div class="email">
-                <i class="bi bi-envelope"></i>
-                <h4>Email:</h4>
-                <p>info@example.com</p>
-              </div>
-
-         <!--     
-              <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d12097.433213460943!2d-74.0062269!3d40.7101282!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0xb89d1fe6bc499443!2sDowntown+Conference+Center!5e0!3m2!1smk!2sbg!4v1539943755621" frameborder="0" style="borer:0; width: 100%; height: 290px;" allowfullscreen></iframe>
-         
-		   </div>
-          </div>
-		 
-
-          <div class="col-lg-9 mt-5 mt-lg-0 d-flex align-items-stretch">
-            <form action="forms/contact.php" method="post" role="form" class="php-email-form">
-              <div class="row">
-                <div class="form-group col-md-6">
-                  <label for="name">Your Name</label>
-                  <input type="text" name="name" class="form-control" id="name" required>
-                </div>
-                <div class="form-group col-md-6">
-                  <label for="name">Your Email</label>
-                  <input type="email" class="form-control" name="email" id="email" required>
-                </div>
-              </div>
-              <div class="form-group">
-                <label for="name">Subject</label>
-                <input type="text" class="form-control" name="subject" id="subject" required>
-              </div>
-              <div class="form-group">
-                <label for="name">Message</label>
-                <textarea class="form-control" name="message" rows="10" required></textarea>
-              </div>
-              <div class="my-3">
-                <div class="loading">Loading</div>
-                <div class="error-message"></div>
-                <div class="sent-message">Your message has been sent. Thank you!</div>
-              </div>
-              <div class="text-center"><button type="submit">Send Message</button></div>
-            </form> -->
-	<!-- Formspree   --->
-
-<!--	<form id="fs-frm" name="simple-contact-form" accept-charset="utf-8" action="https://formspree.io/f/xkneplrj" method="post"> -->
-<!-- <form id="fs-frm" name="simple-contact-form" accept-charset="utf-8" action="https://formspree.io/f/mdojyywo" method="post"> -->
-   <form id="fs-frm" name="simple-contact-form" accept-charset="utf-8" action="https://formspree.io/f/xrgdowql" method="post">	
-  <fieldset id="fs-frm-inputs">
-    <label for="full-name">Name</label>
-    <input type="text" name="name" id="full-name" placeholder="First and Last" required="yes">
-    <label for="email-address">Email Address</label>
-    <input type="email" name="_replyto" id="email-address" placeholder="email@domain.com" required="yes">
-    <label for="message">Message</label>
-    <textarea rows="5" name="message" id="message" placeholder="don't hold back..." required="yes"></textarea>
-    <input type="hidden" name="_subject" id="email-subject" value="RBM Consulting Portfolio Contact">
-	<input type="hidden" name="_next" value="/github.io/thank-you.html" />
-  
- </fieldset>
- <!-- 	<input name="subject" value="RBM Consulting Portfolio Contact" /> -->
-	<input type="submit" value="Submit">
+	
+		<!--- Contact Form --->
+		
+	<form id="contact_form" name="contact_form" method="post">
+    <div class="mb-5 row">
+        <div class="col">
+            <label>Name</label>
+            <input type="text" required maxlength="50" class="form-control" id="first_name" name="first_name" placeholder="First and Last Name">
+        </div>
+ <!--       <div class="col">
+            <label>Last Name</label>
+            <input type="text" required maxlength="50" class="form-control" id="last_name" name="last_name"> -->
+        
+    </div>
+    <div class="mb-5 row">
+        <div class="col">
+            <label for="email_addr">Email address</label>
+            <input type="email" required maxlength="50" class="form-control" id="email_addr" name="email"
+                placeholder="name@example.com">
+        </div>
+        <div class="col">
+            <label for="phone_input">Phone</label>
+            <input type="tel" required maxlength="50" class="form-control" id="phone_input" name="Phone"
+                placeholder="Optional">
+        </div>
+    </div>
+    <div class="mb-5">
+        <label for="message">Message</label>
+        <textarea class="form-control" id="message" name="message" rows="5"></textarea>
+    </div>
+    <button type="submit" class="btn btn-primary px-4 btn-lg">Submit</button>
 </form>
 
-<style>/* reset */
-#fs-frm input,
-#fs-frm select,
-#fs-frm textarea,
-#fs-frm fieldset,
-#fs-frm optgroup,
-#fs-frm label,
-#fs-frm #card-element:disabled {
-  font-family: inherit;
-  font-size: 100%;
-  color: inherit;
-  border: none;
-  border-radius: 0;
-  display: block;
-  width: 100%;
-  padding: 0;
-  margin: 0;
-  -webkit-appearance: none;
-  -moz-appearance: none;
+<script>
+function myFunction() {
+  document.getElementById("contact_form").reset();
 }
-#fs-frm label,
-#fs-frm legend,
-#fs-frm ::placeholder {
-  font-size: .825rem;
-  margin-bottom: .5rem;
-  padding-top: .2rem;
-  display: flex;
-  align-items: baseline;
-}
-
-/* border, padding, margin, width */
-#fs-frm input,
-#fs-frm select,
-#fs-frm textarea,
-#fs-frm #card-element {
-  border: 1px solid rgba(0,0,0,0.2);
-  background-color: rgba(255,255,255,0.9);
-  padding: .75em 1rem;
-  margin-bottom: 1.5rem;
-}
-#fs-frm input:focus,
-#fs-frm select:focus,
-#fs-frm textarea:focus {
-  background-color: white;
-  outline-style: solid;
-  outline-width: thin;
-  outline-color: gray;
-  outline-offset: -1px;
-}
-#fs-frm [type="text"],
-#fs-frm [type="email"] {
-  width: 100%;
-}
-#fs-frm [type="button"],   
-#fs-frm [type="submit"],
-#fs-frm [type="reset"] {
-  width: auto;
-  cursor: pointer;
-  -webkit-appearance: button;
-  -moz-appearance: button;
-  appearance: button;
-}
-#fs-frm [type="button"]:focus,
-#fs-frm [type="submit"]:focus,
-#fs-frm [type="reset"]:focus {
-  outline: none;
-}
-#fs-frm [type="submit"],
-#fs-frm [type="reset"] {
-  margin-bottom: 0;
-}
-#fs-frm select {
-  text-transform: none;
-}
-
-#fs-frm [type="checkbox"] {
-  -webkit-appearance: checkbox;
-  -moz-appearance: checkbox;
-  appearance: checkbox;
-  display: inline-block;
-  width: auto;
-  margin: 0 .5em 0 0 !important;
-}
-
-#fs-frm [type="radio"] {
-  -webkit-appearance: radio;
-  -moz-appearance: radio;
-  appearance: radio;
-}
-
-/* address, locale */
-#fs-frm fieldset.locale input[name="city"],
-#fs-frm fieldset.locale select[name="state"],
-#fs-frm fieldset.locale input[name="postal-code"] {
-  display: inline;
-}
-#fs-frm fieldset.locale input[name="city"] {
-  width: 52%;
-}
-#fs-frm fieldset.locale select[name="state"],
-#fs-frm fieldset.locale input[name="postal-code"] {
-  width: 20%;
-}
-#fs-frm fieldset.locale input[name="city"],
-#fs-frm fieldset.locale select[name="state"] {
-  margin-right: 3%;
-}
-</style>
-     
-		  
-		</div>
+</script>
 		  
 	</div>
-<!-- remove the PHP post and use SMTP in the forms file  
-          
-<?php
-if(isset( $_POST["submit"])){
-
-$to = '<rich.blackman@live.com>';
-$subject=$_POST["subject"];
-$from=$_POST["email"];
-$msg =$_POST["msg"];
-$from =$_POST["name"];
-$headers= "From:" . $from\r\n;
-$header .= "Mime-Version: 1.0\r\n";
-$header .= "Content-type: text/html\r\n";
-mail($to,$subject,$msg,$headers);
-echo "Email successfully sent.";
-}
-?> 
--->
-<!-- my original form 
-		<p align="center">	 
-		  <div class="col-lg-10 mt-5 mt-lg-0 d-flex align-items-stretch" align="left"">
-            <form action="forms/contact.php" method="post" role="form" class="php-email-form">
-              <div class="row">
-                <div class="form-group col-md-6">
-                  <label for="name">Name</label>
-                  <input type="text" name="name" class="form-control" id="name" required>
-                </div>
-                <div class="form-group col-md-6">
-                  <label for="name">Email</label>
-                  <input type="email" class="form-control" name="email" id="email" required>
-                </div>
-              </div>
-              <div class="form-group">
-                <label for="name">Subject</label>
-                <input type="text" class="form-control" name="subject" id="subject" required>
-              </div>
-              <div class="form-group">
-                <label for="name">Message</label>
-                <textarea class="form-control" name="message" rows="10" id="msg" required></textarea>
-              </div>
-              <div class="my-3">
-                <div class="loading">Loading</div>
-                <div class="error-message"></div>
-                <div class="sent-message">Your message has been sent. Thank you!</div>
-              </div>
-              <div class="text-center"><button type="submit">Send Message</button></div>
-			 </form>
-			</p> 
---->          
-		  </div>
+        
 		
     </section> 
 	<!-- End Contact Section -->
@@ -984,6 +789,9 @@ echo "Email successfully sent.";
 
   <!-- Template Main JS File -->
   <script src="assets/js/main.js"></script>
+
+<!--- Ratufa loader --->
+<script id="ratufa_loader" src="https://www.ratufa.io/c/ld.js?f=x9lk530o&n=n1.ratufa.io"></script>
 
  </body>
 
